@@ -53,7 +53,7 @@ const AdvertiserLayout = ({ children }) => {
   return (
     <div
         className={cn(
-            "flex flex-col md:flex-row bg-gray-100 dark:bg-gray-200 flex-1 max-w-7xl overflow-hidden",
+            "flex flex-col md:flex-row bg-gray-100 dark:bg-gray-200 flex-1 w-screen overflow-hidden",
             "h-screen"
         )}
     >
