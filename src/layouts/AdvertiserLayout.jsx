@@ -54,7 +54,7 @@ const AdvertiserLayout = ({ children }) => {
     <div
         className={cn(
             "flex flex-col md:flex-row bg-gray-100 dark:bg-gray-200 flex-1 w-screen overflow-hidden",
-            "h-screen"
+            "min-h-screen h-full"
         )}
     >
         <Sidebar open={open} setOpen={setOpen}>
